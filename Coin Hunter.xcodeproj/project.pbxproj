@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FBD0B41F4E69B200B80C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD0B31F4E69B200B80C6A /* AppDelegate.swift */; };
+		18FBD0B61F4E69B200B80C6A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD0B51F4E69B200B80C6A /* GameScene.sks */; };
+		18FBD0B81F4E69B200B80C6A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD0B71F4E69B200B80C6A /* Actions.sks */; };
+		18FBD0BA1F4E69B200B80C6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD0B91F4E69B200B80C6A /* GameScene.swift */; };
+		18FBD0BC1F4E69B200B80C6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBD0BB1F4E69B200B80C6A /* GameViewController.swift */; };
+		18FBD0BF1F4E69B200B80C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD0BD1F4E69B200B80C6A /* Main.storyboard */; };
+		18FBD0C11F4E69B200B80C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD0C01F4E69B200B80C6A /* Assets.xcassets */; };
+		18FBD0C41F4E69B200B80C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBD0C21F4E69B200B80C6A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18FBD0B01F4E69B200B80C6A /* Coin Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBD0B31F4E69B200B80C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FBD0B51F4E69B200B80C6A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		18FBD0B71F4E69B200B80C6A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		18FBD0B91F4E69B200B80C6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		18FBD0BB1F4E69B200B80C6A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		18FBD0BE1F4E69B200B80C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FBD0C01F4E69B200B80C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FBD0C31F4E69B200B80C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FBD0C51F4E69B200B80C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBD0AD1F4E69B200B80C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBD0A71F4E69B200B80C6A = {
+			isa = PBXGroup;
+			children = (
+				18FBD0B21F4E69B200B80C6A /* Coin Hunter */,
+				18FBD0B11F4E69B200B80C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBD0B11F4E69B200B80C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBD0B01F4E69B200B80C6A /* Coin Hunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBD0B21F4E69B200B80C6A /* Coin Hunter */ = {
+			isa = PBXGroup;
+			children = (
+				18FBD0B31F4E69B200B80C6A /* AppDelegate.swift */,
+				18FBD0B51F4E69B200B80C6A /* GameScene.sks */,
+				18FBD0B71F4E69B200B80C6A /* Actions.sks */,
+				18FBD0B91F4E69B200B80C6A /* GameScene.swift */,
+				18FBD0BB1F4E69B200B80C6A /* GameViewController.swift */,
+				18FBD0BD1F4E69B200B80C6A /* Main.storyboard */,
+				18FBD0C01F4E69B200B80C6A /* Assets.xcassets */,
+				18FBD0C21F4E69B200B80C6A /* LaunchScreen.storyboard */,
+				18FBD0C51F4E69B200B80C6A /* Info.plist */,
+			);
+			path = "Coin Hunter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBD0AF1F4E69B200B80C6A /* Coin Hunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBD0C81F4E69B200B80C6A /* Build configuration list for PBXNativeTarget "Coin Hunter" */;
+			buildPhases = (
+				18FBD0AC1F4E69B200B80C6A /* Sources */,
+				18FBD0AD1F4E69B200B80C6A /* Frameworks */,
+				18FBD0AE1F4E69B200B80C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Hunter";
+			productName = "Coin Hunter";
+			productReference = 18FBD0B01F4E69B200B80C6A /* Coin Hunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBD0A81F4E69B200B80C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18FBD0AF1F4E69B200B80C6A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18FBD0AB1F4E69B200B80C6A /* Build configuration list for PBXProject "Coin Hunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FBD0A71F4E69B200B80C6A;
+			productRefGroup = 18FBD0B11F4E69B200B80C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBD0AF1F4E69B200B80C6A /* Coin Hunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FBD0AE1F4E69B200B80C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBD0BF1F4E69B200B80C6A /* Main.storyboard in Resources */,
+				18FBD0B61F4E69B200B80C6A /* GameScene.sks in Resources */,
+				18FBD0C11F4E69B200B80C6A /* Assets.xcassets in Resources */,
+				18FBD0C41F4E69B200B80C6A /* LaunchScreen.storyboard in Resources */,
+				18FBD0B81F4E69B200B80C6A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBD0AC1F4E69B200B80C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBD0BA1F4E69B200B80C6A /* GameScene.swift in Sources */,
+				18FBD0BC1F4E69B200B80C6A /* GameViewController.swift in Sources */,
+				18FBD0B41F4E69B200B80C6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FBD0BD1F4E69B200B80C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBD0BE1F4E69B200B80C6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FBD0C21F4E69B200B80C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBD0C31F4E69B200B80C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FBD0C61F4E69B200B80C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FBD0C71F4E69B200B80C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FBD0C91F4E69B200B80C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriipoliakov.Coin-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18FBD0CA1F4E69B200B80C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coin Hunter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmitriipoliakov.Coin-Hunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBD0AB1F4E69B200B80C6A /* Build configuration list for PBXProject "Coin Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBD0C61F4E69B200B80C6A /* Debug */,
+				18FBD0C71F4E69B200B80C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBD0C81F4E69B200B80C6A /* Build configuration list for PBXNativeTarget "Coin Hunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBD0C91F4E69B200B80C6A /* Debug */,
+				18FBD0CA1F4E69B200B80C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBD0A81F4E69B200B80C6A /* Project object */;
+}
