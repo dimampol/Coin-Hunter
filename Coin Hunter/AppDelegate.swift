@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Coin Hunter
 //
-//  Created by apple on 2017-08-23.
-//  Copyright © 2017 apple. All rights reserved.
+//  Created by Dmitrii Poliakov on 2017-08-23.
+//  Copyright © 2017 Dmitrii Poliakov. All rights reserved.
 //
 
 import UIKit

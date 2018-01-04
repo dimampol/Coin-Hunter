@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  Coin Hunter
 //
-//  Created by apple on 2017-08-23.
-//  Copyright © 2017 apple. All rights reserved.
+//  Created by Dmitrii Poliakov on 2017-08-23.
+//  Copyright © 2017 Dmitrii Poliakov. All rights reserved.
 //
 
 import UIKit
@@ -11,26 +11,32 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    
+    var scene = GameScene(size: CGSize(width: 1024, height: 768))
+    
+    @IBOutlet weak var refreshGameButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+ 
+        refreshGameButton.isHidden = true
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
+        let view = self.view as! SKView
+        view.ignoresSiblingOrder = true
+        scene.scaleMode = .aspectFill
+        scene.gameViewControllerBridge = self
+
+        view.presentScene(self.scene)
     }
+    
+    @IBAction func refreshButtonPressed(_ sender: UIButton) {
+        
+        refreshGameButton.isHidden = true
+
+        scene.reloadGame()
+    }
+    
 
     override var shouldAutorotate: Bool {
         return true
